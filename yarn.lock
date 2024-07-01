@@ -5290,6 +5290,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"commander@npm:^8.1.0":
+  version: 8.3.0
+  resolution: "commander@npm:8.3.0"
+  checksum: 0f82321821fc27b83bd409510bb9deeebcfa799ff0bf5d102128b500b7af22872c0c92cb6a0ebc5a4cf19c6b550fba9cedfa7329d18c6442a625f851377bacf0
+  languageName: node
+  linkType: hard
+
 "concat-map@npm:0.0.1":
   version: 0.0.1
   resolution: "concat-map@npm:0.0.1"
@@ -11501,11 +11508,11 @@ __metadata:
   linkType: hard
 
 "qs@npm:^6.4.0, qs@npm:^6.9.4":
-  version: 6.12.1
-  resolution: "qs@npm:6.12.1"
+  version: 6.12.2
+  resolution: "qs@npm:6.12.2"
   dependencies:
     side-channel: ^1.0.6
-  checksum: aa761d99e65b6936ba2dd2187f2d9976afbcda38deb3ff1b3fe331d09b0c578ed79ca2abdde1271164b5be619c521ec7db9b34c23f49a074e5921372d16242d5
+  checksum: cb141456f3e518b4212177f5658168acbab60c90735f27f131336f7ae0286b51402911d4a0a786d83d3ba4aa801c032383b4304b28474de00388eb95cf988c8c
   languageName: node
   linkType: hard
 
@@ -12206,6 +12213,7 @@ __metadata:
   dependencies:
     husky: ~8.0.3
     lint-staged: ~13.2.2
+    solc: ^0.8.20
   languageName: unknown
   linkType: soft
 
@@ -12523,6 +12531,23 @@ __metadata:
   bin:
     solcjs: solcjs
   checksum: 2d8eb16c6d8f648213c94dc8d977cffe5099cba7d41c82d92d769ef71ae8320a985065ce3d6c306440a85f8e8d2b27fb30bdd3ac38f69e5c1fa0ab8a3fb2f217
+  languageName: node
+  linkType: hard
+
+"solc@npm:^0.8.20":
+  version: 0.8.20
+  resolution: "solc@npm:0.8.20"
+  dependencies:
+    command-exists: ^1.2.8
+    commander: ^8.1.0
+    follow-redirects: ^1.12.1
+    js-sha3: 0.8.0
+    memorystream: ^0.3.1
+    semver: ^5.5.0
+    tmp: 0.0.33
+  bin:
+    solcjs: solc.js
+  checksum: 8ff85f5e4aeda2018a97d1383284ed982ccc93fe528e1e78e3a8897e8da69848c7d44a8b1562e2ca9082b72c7a547827543eda6bcb12210e6a191e9e64baa5c8
   languageName: node
   linkType: hard
 
